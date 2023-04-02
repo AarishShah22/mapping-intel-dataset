@@ -1,16 +1,25 @@
 # Robotic Occupancy Grid Mapping (OGM) on the Intel Dataset
 
-TODO
+This is the repository for implementing Occupancy Grid Mapping (OGM) using Python. 
 
 ## Usage
 
-TODO
+There are four types of OGM I have implemented. 
 
-## OGM
+1. Discrete Counting Sensor Model
+2. Continuous Counting Sensor Model
+3. Discrete Semantic Counting Sensor Model
+4. Continuous Semantic Counting Sensor Model
 
-TODO
+Clone this repository. Navigate to the folder and run the following command in the terminal:
 
-### Counting Sensor Model (CSM)
+```
+python run.py --task_num TASK_NUM
+```
+
+TASK_NUM is the number of the task which you want to run.
+
+<!-- ### Counting Sensor Model (CSM)
 
 TODO
 
@@ -28,8 +37,8 @@ TODO
 
 ### Continuous Semantic CSM
 
-TODO
+TODO -->
 
-## Comparison
+<!-- ## Comparison
 
-TODO
+TODO -->
